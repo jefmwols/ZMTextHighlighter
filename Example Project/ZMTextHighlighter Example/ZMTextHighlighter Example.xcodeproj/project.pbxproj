@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A214472189F4180008868C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A214471189F4180008868C9 /* Foundation.framework */; };
+		6A214474189F4180008868C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A214473189F4180008868C9 /* CoreGraphics.framework */; };
+		6A214476189F4180008868C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A214475189F4180008868C9 /* UIKit.framework */; };
+		6A21447C189F4180008868C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A21447A189F4180008868C9 /* InfoPlist.strings */; };
+		6A21447E189F4180008868C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21447D189F4180008868C9 /* main.m */; };
+		6A214482189F4180008868C9 /* ZMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A214481189F4180008868C9 /* ZMAppDelegate.m */; };
+		6A214485189F4180008868C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A214483189F4180008868C9 /* Main.storyboard */; };
+		6A214488189F4180008868C9 /* ZMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A214487189F4180008868C9 /* ZMViewController.m */; };
+		6A21448A189F4180008868C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A214489189F4180008868C9 /* Images.xcassets */; };
+		6A214491189F4180008868C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A214490189F4180008868C9 /* XCTest.framework */; };
+		6A214492189F4180008868C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A214471189F4180008868C9 /* Foundation.framework */; };
+		6A214493189F4180008868C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A214475189F4180008868C9 /* UIKit.framework */; };
+		6A21449B189F4180008868C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A214499189F4180008868C9 /* InfoPlist.strings */; };
+		6A21449D189F4180008868C9 /* ZMTextHighlighter_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21449C189F4180008868C9 /* ZMTextHighlighter_ExampleTests.m */; };
+		6A2144A9189F419D008868C9 /* ZMTextHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2144A8189F419D008868C9 /* ZMTextHighlighter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A214494189F4180008868C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A214466189F4180008868C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A21446D189F4180008868C9;
+			remoteInfo = "ZMTextHighlighter Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A21446E189F4180008868C9 /* ZMTextHighlighter Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZMTextHighlighter Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A214471189F4180008868C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A214473189F4180008868C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A214475189F4180008868C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A214479189F4180008868C9 /* ZMTextHighlighter Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZMTextHighlighter Example-Info.plist"; sourceTree = "<group>"; };
+		6A21447B189F4180008868C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A21447D189F4180008868C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A21447F189F4180008868C9 /* ZMTextHighlighter Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZMTextHighlighter Example-Prefix.pch"; sourceTree = "<group>"; };
+		6A214480189F4180008868C9 /* ZMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMAppDelegate.h; sourceTree = "<group>"; };
+		6A214481189F4180008868C9 /* ZMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMAppDelegate.m; sourceTree = "<group>"; };
+		6A214484189F4180008868C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A214486189F4180008868C9 /* ZMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMViewController.h; sourceTree = "<group>"; };
+		6A214487189F4180008868C9 /* ZMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMViewController.m; sourceTree = "<group>"; };
+		6A214489189F4180008868C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A21448F189F4180008868C9 /* ZMTextHighlighter ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZMTextHighlighter ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A214490189F4180008868C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6A214498189F4180008868C9 /* ZMTextHighlighter ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZMTextHighlighter ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		6A21449A189F4180008868C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A21449C189F4180008868C9 /* ZMTextHighlighter_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTextHighlighter_ExampleTests.m; sourceTree = "<group>"; };
+		6A2144A7189F419D008868C9 /* ZMTextHighlighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMTextHighlighter.h; sourceTree = "<group>"; };
+		6A2144A8189F419D008868C9 /* ZMTextHighlighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMTextHighlighter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A21446B189F4180008868C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A214474189F4180008868C9 /* CoreGraphics.framework in Frameworks */,
+				6A214476189F4180008868C9 /* UIKit.framework in Frameworks */,
+				6A214472189F4180008868C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A21448C189F4180008868C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A214491189F4180008868C9 /* XCTest.framework in Frameworks */,
+				6A214493189F4180008868C9 /* UIKit.framework in Frameworks */,
+				6A214492189F4180008868C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A214465189F4180008868C9 = {
+			isa = PBXGroup;
+			children = (
+				6A2144A6189F419D008868C9 /* ZMTextHighlighter */,
+				6A214477189F4180008868C9 /* ZMTextHighlighter Example */,
+				6A214496189F4180008868C9 /* ZMTextHighlighter ExampleTests */,
+				6A214470189F4180008868C9 /* Frameworks */,
+				6A21446F189F4180008868C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A21446F189F4180008868C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A21446E189F4180008868C9 /* ZMTextHighlighter Example.app */,
+				6A21448F189F4180008868C9 /* ZMTextHighlighter ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A214470189F4180008868C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A214471189F4180008868C9 /* Foundation.framework */,
+				6A214473189F4180008868C9 /* CoreGraphics.framework */,
+				6A214475189F4180008868C9 /* UIKit.framework */,
+				6A214490189F4180008868C9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A214477189F4180008868C9 /* ZMTextHighlighter Example */ = {
+			isa = PBXGroup;
+			children = (
+				6A214480189F4180008868C9 /* ZMAppDelegate.h */,
+				6A214481189F4180008868C9 /* ZMAppDelegate.m */,
+				6A214483189F4180008868C9 /* Main.storyboard */,
+				6A214486189F4180008868C9 /* ZMViewController.h */,
+				6A214487189F4180008868C9 /* ZMViewController.m */,
+				6A214489189F4180008868C9 /* Images.xcassets */,
+				6A214478189F4180008868C9 /* Supporting Files */,
+			);
+			path = "ZMTextHighlighter Example";
+			sourceTree = "<group>";
+		};
+		6A214478189F4180008868C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A214479189F4180008868C9 /* ZMTextHighlighter Example-Info.plist */,
+				6A21447A189F4180008868C9 /* InfoPlist.strings */,
+				6A21447D189F4180008868C9 /* main.m */,
+				6A21447F189F4180008868C9 /* ZMTextHighlighter Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A214496189F4180008868C9 /* ZMTextHighlighter ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A21449C189F4180008868C9 /* ZMTextHighlighter_ExampleTests.m */,
+				6A214497189F4180008868C9 /* Supporting Files */,
+			);
+			path = "ZMTextHighlighter ExampleTests";
+			sourceTree = "<group>";
+		};
+		6A214497189F4180008868C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A214498189F4180008868C9 /* ZMTextHighlighter ExampleTests-Info.plist */,
+				6A214499189F4180008868C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A2144A6189F419D008868C9 /* ZMTextHighlighter */ = {
+			isa = PBXGroup;
+			children = (
+				6A2144A7189F419D008868C9 /* ZMTextHighlighter.h */,
+				6A2144A8189F419D008868C9 /* ZMTextHighlighter.m */,
+			);
+			name = ZMTextHighlighter;
+			path = ../../ZMTextHighlighter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A21446D189F4180008868C9 /* ZMTextHighlighter Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2144A0189F4180008868C9 /* Build configuration list for PBXNativeTarget "ZMTextHighlighter Example" */;
+			buildPhases = (
+				6A21446A189F4180008868C9 /* Sources */,
+				6A21446B189F4180008868C9 /* Frameworks */,
+				6A21446C189F4180008868C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZMTextHighlighter Example";
+			productName = "ZMTextHighlighter Example";
+			productReference = 6A21446E189F4180008868C9 /* ZMTextHighlighter Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A21448E189F4180008868C9 /* ZMTextHighlighter ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2144A3189F4180008868C9 /* Build configuration list for PBXNativeTarget "ZMTextHighlighter ExampleTests" */;
+			buildPhases = (
+				6A21448B189F4180008868C9 /* Sources */,
+				6A21448C189F4180008868C9 /* Frameworks */,
+				6A21448D189F4180008868C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A214495189F4180008868C9 /* PBXTargetDependency */,
+			);
+			name = "ZMTextHighlighter ExampleTests";
+			productName = "ZMTextHighlighter ExampleTests";
+			productReference = 6A21448F189F4180008868C9 /* ZMTextHighlighter ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A214466189F4180008868C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Zap Monkey LLC";
+				TargetAttributes = {
+					6A21448E189F4180008868C9 = {
+						TestTargetID = 6A21446D189F4180008868C9;
+					};
+				};
+			};
+			buildConfigurationList = 6A214469189F4180008868C9 /* Build configuration list for PBXProject "ZMTextHighlighter Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A214465189F4180008868C9;
+			productRefGroup = 6A21446F189F4180008868C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A21446D189F4180008868C9 /* ZMTextHighlighter Example */,
+				6A21448E189F4180008868C9 /* ZMTextHighlighter ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A21446C189F4180008868C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A21448A189F4180008868C9 /* Images.xcassets in Resources */,
+				6A21447C189F4180008868C9 /* InfoPlist.strings in Resources */,
+				6A214485189F4180008868C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A21448D189F4180008868C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A21449B189F4180008868C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A21446A189F4180008868C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A21447E189F4180008868C9 /* main.m in Sources */,
+				6A2144A9189F419D008868C9 /* ZMTextHighlighter.m in Sources */,
+				6A214482189F4180008868C9 /* ZMAppDelegate.m in Sources */,
+				6A214488189F4180008868C9 /* ZMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A21448B189F4180008868C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A21449D189F4180008868C9 /* ZMTextHighlighter_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A214495189F4180008868C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A21446D189F4180008868C9 /* ZMTextHighlighter Example */;
+			targetProxy = 6A214494189F4180008868C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A21447A189F4180008868C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A21447B189F4180008868C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A214483189F4180008868C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A214484189F4180008868C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A214499189F4180008868C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A21449A189F4180008868C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A21449E189F4180008868C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6A21449F189F4180008868C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A2144A1189F4180008868C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZMTextHighlighter Example/ZMTextHighlighter Example-Prefix.pch";
+				INFOPLIST_FILE = "ZMTextHighlighter Example/ZMTextHighlighter Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A2144A2189F4180008868C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZMTextHighlighter Example/ZMTextHighlighter Example-Prefix.pch";
+				INFOPLIST_FILE = "ZMTextHighlighter Example/ZMTextHighlighter Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A2144A4189F4180008868C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZMTextHighlighter Example.app/ZMTextHighlighter Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZMTextHighlighter Example/ZMTextHighlighter Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZMTextHighlighter ExampleTests/ZMTextHighlighter ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6A2144A5189F4180008868C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZMTextHighlighter Example.app/ZMTextHighlighter Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZMTextHighlighter Example/ZMTextHighlighter Example-Prefix.pch";
+				INFOPLIST_FILE = "ZMTextHighlighter ExampleTests/ZMTextHighlighter ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A214469189F4180008868C9 /* Build configuration list for PBXProject "ZMTextHighlighter Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A21449E189F4180008868C9 /* Debug */,
+				6A21449F189F4180008868C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A2144A0189F4180008868C9 /* Build configuration list for PBXNativeTarget "ZMTextHighlighter Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2144A1189F4180008868C9 /* Debug */,
+				6A2144A2189F4180008868C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A2144A3189F4180008868C9 /* Build configuration list for PBXNativeTarget "ZMTextHighlighter ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2144A4189F4180008868C9 /* Debug */,
+				6A2144A5189F4180008868C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A214466189F4180008868C9 /* Project object */;
+}
