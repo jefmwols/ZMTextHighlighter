@@ -37,7 +37,6 @@ NSString *const ZMTextHighlighterException = @"ZMTextHighlighter Configuration E
     if (!_textHolder) {
         [NSException raise:ZMTextHighlighterException format:@"The textHolder property must be set before calling %s", __PRETTY_FUNCTION__];
     }
-    // TODO: highlight charachters
     NSMutableAttributedString *newAttributedText = [self.textHolder.attributedText mutableCopy];
     NSRange fullRange = NSMakeRange(0, newAttributedText.string.length);
     [newAttributedText setAttributes:self.plainTextAttributes range:fullRange];
